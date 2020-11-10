@@ -1,0 +1,33 @@
+body {
+  background: #eee;
+  text-align: center;
+}
+
+
+.button-conteiner {
+  margin: 200px auto;
+  width: 270px;
+  position: relative;
+}
+.btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: sans-serif, "Arial";
+  line-height: 30px;
+  background-color: #DC3545;
+  padding: 8px 30px;
+  border: 1px solid #DC3545;
+  border-radius: 5px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.popover {
+  position: absolute;  
+  padding: 5px 10px;  
+  width: 200px;  
+  background: #fff;  
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);  
+  z-index: 999;
+}
